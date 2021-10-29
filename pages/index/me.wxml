@@ -1,0 +1,104 @@
+<!--头像名字-->
+
+  <view class="item">
+  <navigator class="item2"  >
+    <view>
+      <image class="pic"  src='https://p2.music.126.net/2O5p7mYW7mYRBUDnPi4DwA==/109951165564919696.jpg?param=130y130'></image>
+    </view>
+    <view class="number-wrapper">
+      <view >
+        <text class="count">刘德华</text>
+      </view>
+      <view>
+        <text class="time">VIP5</text>
+      </view>
+    </view>
+  </navigator >
+  </view>
+
+
+
+  <view class="big-tools">
+    <view class="content-info-portal">
+          <view>
+            <image src="/images/rili.png" />
+            <text>每日推荐</text>
+          </view>
+          <view>
+            <image src="/images/FM.png" />
+            <text>私人FM</text>
+          </view>
+          <view>
+            <image src="/images/mp.png" />
+            <text>歌单</text>
+          </view>
+          <view>
+            <image src="/images/phb.png" />
+            <text>排行榜</text>
+          </view>
+          <view>
+            <image src="/images/xgphb.png" />
+            <text>云音乐新歌榜</text>
+          </view>
+    </view>
+    <view class="content-info-portal">
+          <view>
+            <image src="/images/rili.png" />
+            <text>每日推荐</text>
+          </view>
+          <view>
+            <image src="/images/FM.png" />
+            <text>私人FM</text>
+          </view>
+          <view>
+            <image src="/images/mp.png" />
+            <text>歌单</text>
+          </view>
+          <view>
+            <image src="/images/phb.png" />
+            <text>排行榜</text>
+          </view>
+          <view>
+            <image src="/images/xgphb.png" />
+            <text>云音乐新歌榜</text>
+          </view>
+    </view>
+  </view>
+
+  <!-- 我喜欢的音乐-->
+  <view class="lb">
+  <navigator class="item2"  >
+    <view>
+      <image class="ilove"  src='https://p2.music.126.net/2O5p7mYW7mYRBUDnPi4DwA==/109951165564919696.jpg?param=130y130'></image>
+    </view>
+    <view class="number-wrapper">
+      <view >
+        <text class="mylove" style="font-size: 18px;">我喜欢的音乐</text>
+      </view>
+      <view>
+        <text class="love">645首</text>
+        <text class="love">已下载264首</text>
+      </view>
+    </view>
+  </navigator >
+  </view>
+  <view>
+    <text>最近常听</text>
+  </view>
+  <view class="lb">
+    <scroll-view class="content-playlist" scroll-y>
+  <view class="playlist-item" wx:for="{{playlist}}" wx:key="id" data-index="{{index}}">
+    <image class="playlist-cover" src="{{item.coverImgUrl}}" />
+    <view class="playlist-info">
+      <view class="playlist-info-title">{{item.title}}</view>
+      <view class="playlist-info-singer">{{item.singer}}</view>
+    </view>
+    <view class="playlist-controls">
+      <text wx:if="{{index==playIndex}}"></text>
+    </view>
+  </view>
+</scroll-view>
+  </view>
+  
+  
+
