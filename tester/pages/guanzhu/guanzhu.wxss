@@ -1,0 +1,27 @@
+/* pages/guanzhu/guanzhu.wxss */
+.bg{
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to right bottom,white,rgb(235, 165, 165));
+}
+.biaoti{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.biaoti text{
+  width: 50%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 33rpx;
+}
+.img{
+  width: 100rpx;
+  height: 100rpx;
+  border:5rpx solid #fff;
+  border-radius: 50%;
+}

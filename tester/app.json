@@ -1,0 +1,58 @@
+{
+  "pages": [ 
+    
+    "pages/index/index",
+    "pages/zhuanji/zhuanji",
+    "pages/guanzhu/guanzhu",
+    "pages/search/search",
+    "pages/recommendSong/recommendSong",
+    "pages/songDetail/songDetail",
+    "pages/video/video",
+    "pages/personal/personal",
+    "pages/login/login",
+    "pages/playlist/playlist",
+    "pages/mine/mine"
+   
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#515151",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "manster云音乐"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#d43c33",
+    "backgroundColor":"white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/static/images/tabs/tab-home.png",
+        "selectedIconPath": "/static/images/tabs/tab-home-current.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "视频",
+        "iconPath": "/static/images/shipin.png",
+        "selectedIconPath": "/static/images/tabs/tab-video-current.png"
+      },
+      {
+        "pagePath": "pages/guanzhu/guanzhu",
+        "text": "社区",
+        "iconPath": "/static/images/guanzhu.png",
+        "selectedIconPath": "/static/images/shequ.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人",
+        "iconPath": "/static/images/tabs/tab-personal.png",
+        "selectedIconPath": "/static/images/me.png"
+      }
+    ]
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

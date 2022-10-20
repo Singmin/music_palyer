@@ -1,0 +1,85 @@
+<view class="bg"  style="width: 750rpx; height: 1664rpx; display: block; box-sizing: border-box">
+  <view class="biaoti">
+    <text>动态</text>
+    <text>云圈</text>
+  </view>
+
+
+  <view style="position: relative; width: 100%; height: 100px; top: 100rpx">
+
+    <image class="img" style="position: relative; left: 36rpx; top: 20rpx" src="https://y.qq.com/music/photo_new/T001R300x300M0000025NhlN2yWrP4.jpg?max_age=2592000" />
+    <image class="img" style="position: relative; left: 66rpx; top: 20rpx" src="https://y.qq.com/music/photo_new/T001R500x500M000003Nz2So3XXYek.jpg?max_age=2592000" />
+    <image class="img" style="position: relative; left: 96rpx; top: 21rpx" src="https://y.qq.com/music/photo_new/T001R500x500M000001BLpXF2DyJe2.jpg?max_age=2592000" />
+    <image class="img" style="position: relative; left: 127rpx; top: 21rpx" src="https://y.qq.com/music/photo_new/T001R500x500M000001fNHEf1SFEFN.jpg?max_age=2592000" />
+    <image class="img" style="position: relative; left: 156rpx; top: 21rpx" src="https://y.qq.com/music/photo_new/T001R500x500M000000CK5xN3yZDJt.jpg?max_age=2592000" />
+    <text style="position: relative; left: -498rpx; top: 54rpx">周杰伦</text>
+    <text style="position: relative; left: -456rpx; top: 54rpx">陈奕迅</text>
+    <text style="position: relative; left: 456rpx; top: 13rpx">邓紫棋</text>
+    <text style="position: relative; left: 514rpx; top: 13rpx">许嵩</text>
+    <text style="position: relative; left: 158rpx; top: 12rpx">林俊杰</text>
+  </view>
+
+
+
+  <view style="width: 750rpx; height: 100rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: 100rpx">
+    <text style="position: relative; left: 23rpx; top: 24rpx;font-weight: bold;color: #db8484;">我的关注</text>
+    <text style="position: relative; left: 342rpx; top: 24rpx;color: #db8484;font-weight: bold;">全部</text>
+    <text style="position: relative; left: 438rpx; top: 24rpx">音乐人</text>
+    <text style="position: relative; left: 266rpx; top: 24rpx">朋友</text>
+  </view>
+  <view style="width: 704rpx; height: 100rpx; display: block; box-sizing: border-box; position: relative; left: 24rpx; top: 100rpx; background-color: rgba(117, 86, 86, 0.164); border-radius: 15rpx">
+    <image style="position: relative; border-radius: 50%; left: 30rpx; top: 12rpx; width: 68rpx; height: 68rpx; display: inline-block; box-sizing: border-box" src="https://y.qq.com/music/photo_new/T001R500x500M000003Nz2So3XXYek.jpg?max_age=2592000" />
+    <image style="position: relative; border-radius: 50%; left: 34rpx; top: 12rpx; width: 68rpx; height: 68rpx; display: inline-block; box-sizing: border-box" src="https://y.qq.com/music/photo_new/T001R300x300M0000025NhlN2yWrP4.jpg?max_age=2592000" />
+  
+  
+  
+    <text style="position: relative; left: 57rpx; top: -9rpx;color: #4b4949;">陈奕迅等9位歌手发布了新作品</text>
+  </view>
+
+  <view style="width: 90%; background: #d1d1d196; height: 548rpx; position: relative; left: 39rpx; top: 130rpx; display: block; box-sizing: border-box; border-radius: 10%">
+    <view style="width: 750rpx; height: 140rpx; display: block; box-sizing: border-box">
+      <image class="img" style="position: relative; left: 29rpx; top: 26rpx" src="https://y.qq.com/music/photo_new/T001R300x300M0000025NhlN2yWrP4.jpg?max_age=2592000" />
+      <view style="width: 518rpx; height: 100rpx; display: block; box-sizing: border-box; position: relative; left: 136rpx; top: 304rpx; background-color: rgba(194, 58, 58, 0.164); border-radius: 15rpx">
+        <image style="position: relative; left: 20rpx; top: 15rpx; width: 74rpx; height: 74rpx; border-radius: 15rpx; display: inline-block; box-sizing: border-box" src="https://y.qq.com/music/photo_new/T002R180x180M000000f01724fd7TH_1.jpg?max_age=2592000" />
+      
+        <text style="position: relative; left: 36rpx; top: -26rpx; font-weight: bold; color: rgb(238, 235, 235)">可爱女人</text>
+      
+        <text style="position: relative; font-weight: 100; font-size: small; left: -94rpx; top: 8rpx">周杰伦</text>
+      </view>
+  
+      <text style="position: relative; left: 162rpx; top: -191rpx;color: blueviolet;">周杰伦</text>
+  
+      <text style="position: relative; left: 162rpx; top: -191rpx">分享单曲</text>
+      <text style="position: relative; left: -62rpx; top: -157rpx; font-size: 25rpx">昨晚20:58</text>
+    </view>
+    <view style="position: relative; display: block; box-sizing: border-box; left: 0rpx; top: -24rpx; width: 680rpx; height: 292rpx">
+    <image style="position: relative; width: 506rpx; height: 264rpx; display: inline-block; box-sizing: border-box; left: 142rpx; top: 20rpx; border-radius: 30rpx" src="https://y.qq.com/music/photo_new/T002R300x300M000002gBTVk4JEE2T.jpg?max_age=2592000" />
+    
+    </view>
+  </view>
+  <view style="width: 90%; background: #d1d1d196; height: 548rpx; position: relative; left: 38rpx; top: 156rpx; display: block; box-sizing: border-box; border-radius: 10%">
+    <view style="width: 750rpx; height: 140rpx; display: block; box-sizing: border-box">
+      <image class="img" style="position: relative; left: 29rpx; top: 26rpx" src="https://y.qq.com/music/photo_new/T001R500x500M000003Nz2So3XXYek.jpg?max_age=2592000" />
+      <view style="width: 518rpx; height: 100rpx; display: block; box-sizing: border-box; position: relative; left: 136rpx; top: 304rpx; background-color: rgba(194, 58, 58, 0.164); border-radius: 15rpx">
+        <image style="position: relative; left: 20rpx; top: 15rpx; width: 74rpx; height: 74rpx; border-radius: 15rpx; display: inline-block; box-sizing: border-box" src="https://img1.doubanio.com/view/note/l/public/p55690378.webp" />
+      
+        <text style="position: relative; left: 36rpx; top: -26rpx; font-weight: bold; color: rgb(238, 235, 235)">淘汰</text>
+      
+        <text style="position: relative; font-weight: 100; font-size: small; left: -35rpx; top: 9rpx">陈奕迅</text>
+      </view>
+  
+      <text style="position: relative; left: 162rpx; top: -191rpx;color: blueviolet;">陈奕迅</text>
+  
+      <text style="position: relative; left: 162rpx; top: -191rpx">分享单曲</text>
+      <text style="position: relative; left: -62rpx; top: -157rpx; font-size: 25rpx">昨晚19:18</text>
+    </view>
+    <view style="position: relative; display: block; box-sizing: border-box; left: 0rpx; top: -24rpx; width: 680rpx; height: 292rpx">
+    <image style="position: relative; width: 506rpx; height: 264rpx; display: inline-block; box-sizing: border-box; left: 142rpx; top: 20rpx; border-radius: 30rpx" src="https://img1.doubanio.com/view/note/l/public/p55689898.webp" />
+    
+    </view>
+  </view>
+
+  
+</view>
+
+

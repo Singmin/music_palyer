@@ -1,0 +1,48 @@
+
+
+<swiper class="banners" indicator-dots="true" indicator-color="ivory" indicator-active-color="#d43c33">
+    <swiper-item  wx:for="{{bannerList}}" wx:key="bannerId">
+      <image src="{{item.pic}}"></image>
+    </swiper-item>
+</swiper>
+
+<view class="navContainer"  style="width: 100%; height: 222rpx; display: flex; box-sizing: border-box">
+    <view class="navItem" style="width: 33%; height: 174rpx; display: flex; box-sizing: border-box">
+      <text class="iconfont icon-rili" bindtap="toRecommendSong"></text>
+      <text>畅销榜</text>
+    </view>
+    <view class="navItem" style="width: 33%; height: 174rpx; display: flex; box-sizing: border-box">
+      <text class="iconfont icon-diantai"></text>
+      <text>语种风格馆</text>
+    </view>
+    <view class="navItem" style="float: right; width: 33%; height: 174rpx; display: flex; box-sizing: border-box">
+      <text class="iconfont icon-zhuanji"></text>
+      <text>已购买</text>
+    </view>
+  </view>
+  <view style="height: 1rpx; background-color:#cccccc;width: 90%;margin-left: 5%;" ></view>
+
+<view>
+  <text class="biaoti">最新上架    ></text>
+  <view style="position:relative; width: 100%; min-height: 100px">
+          <image wx:for="{{zhuanjilist}}" wx:key="id" wx:for-item="zhuanji" wx:if="{{index<6}}" src="{{zhuanji.picUrl}}" class="CDIMG" ></image>
+  </view>
+</view>
+
+<view class="topList">
+    <!-- 头部 -->
+    <view class="biaoti">新专辑排行榜</view>
+    <!-- 内容 -->
+    <swiper class="topListSwiper" next-margin="100rpx">
+      <swiper-item wx:for="{{topList}}" wx:key="name">
+        <view class="swiperItem">
+          <view class="title">{{name[index]}}</view>
+          <view class="musicItem" wx:for="{{item.tracks}}" wx:key="id" wx:for-item="musicItem">
+            <image src="{{musicItem.al.picUrl}}" class="phbimages"></image>
+            <view class="count">{{index + 1}}</view>
+            <view bindtap="toSongDetail" id="{{musicItem.id}}" class="musicName">{{musicItem.name}}</view>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
